@@ -1,14 +1,14 @@
 {
-  "name": "react-modern-library-boilerplate-example",
-  "homepage": "https://transitive-bullshit.github.io/react-modern-library-boilerplate",
-  "version": "0.0.0",
+  "name": "react-pretty-duration",
+  "homepage": "https://github.com/AbdulRehman3/react-pretty-duration",
+  "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-modern-library-boilerplate": "link:..",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-pretty-duration": "file:..",
     "react-scripts": "^1.1.4"
   },
   "scripts": {
