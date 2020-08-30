@@ -1,10 +1,10 @@
 {
-  "name": "react-modern-library-boilerplate",
-  "version": "1.4.1",
-  "description": "Boilerplate for publishing modern React modules with Rollup",
-  "author": "Travis Fischer",
+  "name": "react-pretty-duration",
+  "version": "1.0.0",
+  "description": "Reactjs tinny package to convert numbered duration to human friendly text.",
+  "author": "AbdulRehman",
   "license": "MIT",
-  "repository": "transitive-bullshit/react-modern-library-boilerplate",
+  "homepage": "https://github.com/AbdulRehman3/react-pretty-duration",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "engines": {
@@ -15,14 +15,12 @@
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepublish": "npm run build",
-    "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
+    "prepublish": "npm run build"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
-    "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -40,9 +38,8 @@
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-standard": "^3.1.0",
-    "gh-pages": "^1.2.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "react-scripts": "^1.1.4",
     "rollup": "^0.64.1",
     "rollup-plugin-babel": "^3.0.7",
@@ -54,5 +51,20 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbdulRehman3/react-pretty-duration.git"
+  },
+  "keywords": [
+    "react",
+    "react-pretty-duration",
+    "react-component",
+    "duration",
+    "time",
+    "parser"
+  ],
+  "bugs": {
+    "url": "https://github.com/AbdulRehman3/react-pretty-duration/issues"
+  }
 }
