@@ -13,13 +13,12 @@ npm install react-pretty-duration
 ## Usage
 
 ```jsx
-import PrettyDuration from 'react-pretty-duration'
+import React from 'react';
+import PrettyDuration from 'react-pretty-duration';
 
-const App = (props) => {
+const App = () => {
     return (
-        <div>
-            <PrettyDuration duration={50} />
-        </div>
+        <PrettyDuration duration={50} />
     )
 }
 ```
@@ -29,6 +28,9 @@ const App = (props) => {
 | props    | type   | default | description                               | required |
 |----------|--------|---------|-------------------------------------------|----------|
 | duration | number | 0       | numbered duration, must be greater than 0 | true     |
+| className| string | 0       | className for element styling             | false    |
+| style    | style object | 0 | object for inline styling                 | false    |
+
 
 ## Notice
 This package uses react hooks, so would works with react@16.8 or greater

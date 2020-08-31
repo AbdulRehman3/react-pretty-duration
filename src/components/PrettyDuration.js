@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 
-const PrettyDuration = ({duration = 0}) => {
+const PrettyDuration = ({duration = 0, className, style}) => {
 
   const [durationText, setDurationText] = useState(null);
 
@@ -20,12 +20,17 @@ const PrettyDuration = ({duration = 0}) => {
   }, []);
 
   return (
-    <span>{durationText}</span>
+    <span 
+      className={className || null}
+      style={style || null}
+    >{durationText}</span>
   )
 }
 
 PrettyDuration.prototype = {
-  duration: PropTypes.number.isRequired
+  duration: PropTypes.number.isRequired,
+  className: PropTypes.string,
+  style: PropTypes.object
 }
 
 export default PrettyDuration;
