@@ -1,5 +1,10 @@
 # react-pretty-duration
 
+![npm bundle size](https://img.shields.io/bundlephobia/min/react-pretty-duration)
+![npm](https://img.shields.io/npm/dt/react-pretty-duration)
+![npm](https://img.shields.io/npm/v/react-pretty-duration)
+![NPM](https://img.shields.io/npm/l/react-pretty-duration)
+
 react-pretty-duration is a reactjs package converting numbered duration to user friendly duration text.
 
 ## Installation
@@ -27,7 +32,7 @@ const App = () => {
 
 ## Demo
 
-['react-pretty-duration'](https://codesandbox.io/s/react-pretty-duration-2krwk)
+[react-pretty-duration](https://codesandbox.io/s/react-pretty-duration-2krwk)
 
 ## Props
 
