@@ -17,17 +17,23 @@ import React from 'react';
 import PrettyDuration from 'react-pretty-duration';
 
 const App = () => {
-    return (
-        <PrettyDuration duration={50} />
-    )
+	return (
+		// provide total minutes
+		<PrettyDuration duration={200} />
+	)
 }
+// result => 3hr 20min
 ```
+
+## Demo
+
+['react-pretty-duration'](https://codesandbox.io/s/react-pretty-duration-2krwk)
 
 ## Props
 
 | props    | type   | default | description                               | required |
 |----------|--------|---------|-------------------------------------------|----------|
-| duration | number | 0       | numbered duration, must be greater than 0 | true     |
+| duration | number | 0       | numbered duration in minutes, must be greater than 0 | true     |
 | className| string | 0       | className for element styling             | false    |
 | style    | style object | 0 | object for inline styling                 | false    |
 
